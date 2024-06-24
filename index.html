@@ -9,20 +9,44 @@
 </head>
 <body class="bg-gradient-to-r from-gray-900 to-gray-800">
     <header>
-        <div class="flex justify-center py-16">
-            <h1 class="text-white text-8xl font-mono">Audio Workshops</h1>
-        </div>
-        <div class="flex justify-center py-6">
-            <h2 class="text-white text-4xl font-mono">For South African teachers who want to be the best</h2>
-        </div>
+        <hgroup>
+            <h1 class="text-white text-6xl font-mono font-bold my-2 py-4 px-4 text-center">Audio Workshops</h1>
+            <p class="text-white my-2 py-4 px-4 text-3xl font-mono text-center">For South African teachers who want to be the best</p>
+        </hgroup>
     </header>
     <main>
+        <div class="mt-12 px-2">
+            <h2 class="text-center text-white text-2xl px-4">Select a workshop</h2>
+            <div class="p-4 mt-3 border-2 border-pink-50 rounded-xl">
+                <p class="text-white text-md font-semibold">0. Introduction</p>
+            </div>
+            <div class="p-4 mt-3 border-2 border-pink-50 rounded-xl">
+                <p class="text-white text-md font-semibold">1. How to decolonize your classroom</p>
+                <p class="text-white text-sm">Featuring: Michael Morsches</p>
+            </div>
+            <div class="p-4 mt-3 border-2 border-pink-300 rounded-xl">
+                <p class="text-white text-md font-semibold">2. How to design a class routine</p>
+                <p class="text-white text-sm">Featuring: Lori Niemoeller</p>
+            </div>
+            <div class="flex justify-center mt-2">
+                <audio controls>
+                    <source src="./audio/testmp3.m4a" type="audio/mp4" />
+                    Please update your browser or try a different browser to play the audio.
+                </audio>
+            </div>
+            <div class="mt-2 text-center">
+                <a href="#" target="_blank" class="text-pink-200 underline">Cheat Sheet</a>
+            </div>
+        </div>
+        <!--
         <div class="flex justify-center mt-6">
-            <div class="grid grid-cols-2 gap-4 w-3/5 border-2 border-pink-100 rounded-lg">
-                <div class="col-span-1">
-                    <h3 class="text-white text-2xl p-4">1. How to design a class routine</h3>
-                    <p class="text-white text-lg pl-4 pb-4">Featuring: Lori Niemoeller</p>
+            <div class="grid grid-cols-2 gap-4 w-3/5 border-2 border-amber-100 rounded-lg">
+                <div class="col-span-1 py-4">
+                    <h2 class="text-white text-2xl pl-4">1. How to design a class routine</h3>
+                    <p class="text-white text-lg pt-1 pl-4">Featuring: Lori Niemoeller</p>
+                    <a href="#" target="_blank" class="text-amber-200 pt-1 pl-4 underline">Cheat Sheet</a>
                 </div>
+                
                 <div class="col-span-1 content-center items-start">
                     <audio controls>
                         <source src="./audio/testmp3.m4a" type="audio/mp4" />
@@ -31,6 +55,7 @@
                 </div>
             </div>
         </div>
+        -->
     </main>
 </body>
 </html>
