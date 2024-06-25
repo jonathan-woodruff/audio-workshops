@@ -18,60 +18,53 @@
     <main>
         <div class="mt-12 px-2">
             <h2 class="text-center text-white text-2xl px-4">Select a workshop</h2>
-            <div class="p-4 mt-3 border-2 border-pink-50 rounded-xl">
-                <p class="text-white text-md font-semibold">0. Introduction</p>
-                <div class="hidden justify-center my-4">
+
+            <div class="workshop p-4 mt-3 max-w-screen-sm mx-auto border-2 border-pink-50 hover:border-pink-300 rounded-xl cursor-pointer">
+                <p class="text-white text-md font-semibold">Introduction</p>
+                <div class="hidden workshopaudio justify-center my-4">
                     <audio controls>
                         <source src="./audio/testmp3.m4a" type="audio/mp4" />
                         Please update your browser or try a different browser to play the audio.
                     </audio>
                 </div>
             </div>
-            <div class="group workshop p-4 mt-3 border-2 border-pink-50 focus-within:border-pink-300 rounded-xl">
-                <p class="text-white text-md font-semibold">1. How to decolonize your classroom</p>
+
+            <div class="workshop p-4 mt-3 max-w-screen-sm mx-auto border-2 border-pink-50 hover:border-pink-300 rounded-xl cursor-pointer">
+                <p class="text-white text-md font-semibold">How to decolonize your classroom</p>
                 <p class="text-white text-sm">Featuring: Michael Morsches</p>
-                <div class="hidden workshopaudio group-focus-within:flex justify-center my-4">
+                <div class="hidden workshopaudio justify-center my-4">
                     <audio controls>
                         <source src="./audio/testmp3.m4a" type="audio/mp4" />
                         Please update your browser or try a different browser to play the audio.
                     </audio>
                 </div>
-                <div class="hidden cheatsheet group-focus-within:block mt-2 text-center">
+                <div class="hidden cheatsheet mt-2 text-center">
                     <a href="#" target="_blank" class="text-pink-200 underline">Cheat Sheet</a>
                 </div>
             </div>
-            <div class="p-4 mt-3 border-2 border-pink-50 rounded-xl">
-                <p class="text-white text-md font-semibold">2. How to design a class routine</p>
+
+            <div class="workshop p-4 mt-3 max-w-screen-sm mx-auto border-2 border-pink-50 hover:border-pink-300 rounded-xl cursor-pointer">
+                <p class="text-white text-md font-semibold">How to design a class routine</p>
                 <p class="text-white text-sm">Featuring: Lori Niemoeller</p>
-            </div>
-            <div class="hidden justify-center my-4">
-                <audio controls>
-                    <source src="./audio/testmp3.m4a" type="audio/mp4" />
-                    Please update your browser or try a different browser to play the audio.
-                </audio>
-            </div>
-            <div class="mt-2 text-center hidden">
-                <a href="#" target="_blank" class="text-pink-200 underline">Cheat Sheet</a>
-            </div>
-        </div>
-        <!--
-        <div class="flex justify-center mt-6">
-            <div class="grid grid-cols-2 gap-4 w-3/5 border-2 border-amber-100 rounded-lg">
-                <div class="col-span-1 py-4">
-                    <h2 class="text-white text-2xl pl-4">1. How to design a class routine</h3>
-                    <p class="text-white text-lg pt-1 pl-4">Featuring: Lori Niemoeller</p>
-                    <a href="#" target="_blank" class="text-amber-200 pt-1 pl-4 underline">Cheat Sheet</a>
-                </div>
-                
-                <div class="col-span-1 content-center items-start">
+                <div class="hidden workshopaudio justify-center my-4">
                     <audio controls>
                         <source src="./audio/testmp3.m4a" type="audio/mp4" />
                         Please update your browser or try a different browser to play the audio.
                     </audio>
                 </div>
+                <div class=" hidden cheatsheet mt-2 text-center">
+                    <a href="#" target="_blank" class="text-pink-200 underline">Cheat Sheet</a>
+                </div>
             </div>
         </div>
-        -->
     </main>
+    <footer>
+        <div class="mt-32 px-4">
+            <hr class="border-amber-300"/>
+            <p class="text-gray-200 text-center mt-4">Copyright: Jonathan Woodruff | 2024</p>
+            <p class="text-gray-200 text-center mt-4">Made with love using Tailwind and good ol' HTML & JavaScript</p>
+            <p class="text-gray-200 text-center mt-4">I code because I am code</p>
+        </div>
+    </footer>
 </body>
 </html>
